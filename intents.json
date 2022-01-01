@@ -1,0 +1,242 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Coronavirus",
+      "patterns": [
+        "What is Coronavirus?",
+        "What is Covid-19?",
+        "What is Corona?"
+      ],
+      "responses": [
+        "CO stands for corona, VI for virus, and D for disease. COVID-19 is the disease caused by SARS-CoV-2, the coronavirus that emerged in December 2019.",
+        "COVID-19 can be severe, and has caused millions of deaths around the world as well as lasting health problems in some who have survived the illness."
+      ]
+    },
+    {
+      "tag": "Spread",
+      "patterns": [
+        "How does the virus spread?",
+        "What is community spread?"
+      ],
+      "responses": [
+        "COVID-19 spreads when an infected person breathes out droplets and very small particles that contain the virus. These droplets and particles can be breathed in by other people or land on their eyes, noses, or mouth. In some circumstances, they may contaminate surfaces they touch. People who are closer than 6 feet from the infected person are most likely to get infected.",
+        "We know that the virus can be transmitted by people up to two days before symptoms start, and when people who are infected show symptoms."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of COVID-19?"
+      ],
+      "responses": [
+        "The most common symptoms are fever, cough, and tiredness. Other symptoms can include shortness of breath, chest pain or pressure, muscle or body aches, headache, loss of taste or smell, confusion, sore throat, congestion or runny nose, diarrhea, nausea and vomiting, abdominal pain, and skin rashes."
+      ]
+    },
+    {
+      "tag": "protect",
+      "patterns": [
+        "How can I protect myself and others from COVID-19?",
+        "How to prevent Coronavirus?",
+        "How to protect my family?"
+      ],
+      "responses": [
+      "Preventive measures include physical or social distancing, quarantining, ventilation of indoor spaces, covering coughs and sneezes, hand washing, and keeping unwashed hands away from the face. The use of face masks or coverings has been recommended in public settings to minimise the risk of transmissions."
+      ]
+    },
+    {
+      "tag": "pregnant women",
+      "patterns":[
+        "Is there evidence of a heightened risk to pregnant women?",
+        "Are Pregnant women at risk?"
+      ],
+      "responses":[
+        "Pregnant people are at an increased risk for severe illness from COVID-19 compared to non-pregnant people. Having certain underlying medical conditions and other factors, including age, can further increase a pregnant or recently pregnant person risk for developing severe illness."
+      ]
+    },
+    {
+      "tag": "Omicron",
+      "patterns":[
+        "What is Omicron?",
+        "What is the Coronavirus Omicron variant?"
+      ],
+      "responses":[
+        "The Omicron variant is a variant of SARS-CoV-2, the virus that causes COVID-19. It was first reported to the World Health Organization from South Africa on 24 November 2021. On 26 November 2021, the WHO designated it as a variant of concern and named it Omicron, the fifteenth letter in the Greek alphabet."
+      ]
+    },
+    {
+      "tag": "Vaccines",
+      "patterns":[
+        "What vaccines are there against Covid-19?"
+      ],
+      "responses":[
+        "The Pfizer/BioNTech Comirnaty, The SII/COVISHIELD and AstraZeneca/AZD1222 vaccines,The Janssen/Ad26.COV 2.S developed by Johnson & Johnson, The Moderna COVID-19 vaccine mRNA 1273,The Sinopharm COVID-19 vaccine, The Sinovac-CoronaVac, The Bharat Biotech BBV152 COVAXIN vaccine"
+      ]
+    },
+    {
+      "tag": "Travel",
+      "patterns":[
+        "Can I travel during Covid?"
+      ],
+      "responses":[
+        "Delay travel until you are fully vaccinated. Do not travel if you have been exposed to COVID-19, you are sick, or if you test positive for COVID-19. If you are not fully vaccinated and must travel, get tested both before and after your trip."
+      ]
+    },
+    {
+      "tag": "Pets and Animals",
+      "patterns":[
+        "Can my pet get covid-19?",
+        "Can covid-19 transmit from animal to human?"
+      ],
+      "responses":[
+        "The virus that causes COVID-19 can spread from people to animals during close contact. The risk of animals spreading COVID-19 to people is low. Pets can get serious illness from infection with the virus that causes COVID-19, but this is extremely rare."
+      ]
+    },
+    {
+      "tag":"Diet",
+      "patterns":[
+        "What is a healthy diet during the Covid-19 pandemic?",
+        "What should I eat during covid-19?",
+        "What to eat during covid-19?"
+      ],
+      "responses":[
+        "Every day, eat a mix of wholegrains like wheat, maize and rice, legumes like lentils and beans, plenty of fresh fruit and vegetables , with some foods from animal sources (e.g. meat, fish, eggs and milk. Choose wholegrain foods like unprocessed maize, millet, oats, wheat and brown rice when you can; they are rich in valuable fibre and can help you feel full for longer. For snacks, choose raw vegetables, fresh fruit, and unsalted nuts."
+      ]
+    },
+    {
+      "tag": "Jokes",
+      "patterns": [
+        "Can you tell me a joke?",
+        "I feel sad, can you make me laugh?",
+        "tell me a joke"
+      ],
+      "responses":[
+        "Two grandmothers were bragging about their precious darlings. One of them says to the other, 'Mine are so good at social distancing, they do not even call me'.",
+        "If I keep stress-eating at this level, the buttons on my shirt will start socially distancing from each other.",
+        "How did the health experts lie? They said a mask and gloves was enough to go to the grocery store. When I got there, everyone else had clothes on.",
+        "What is the difference between the Alpha and Delta variant? I do not know; it is all Greek to me."
+      ]
+    },
+    {
+      "tag":"Positive",
+      "patterns":[
+        "How to remain positive during covid?",
+        "How to not be sad during Coronavirus?",
+        "I feel sad and worried"
+      ],
+      "responses":[
+        "During the COVID-19 pandemic, you may experience stress, anxiety, fear, sadness and loneliness. And mental health disorders, including anxiety and depression, can worsen.Here are three positive psychology practices you can try: Be more mindful, Share some kindness, Practice gratitude. Please visit this link https://www.health.harvard.edu/blog/staying-positive-during-difficult-times-2020100121047 for more details about the 3 mindfulness practices."
+      ]
+    },
+    {
+      "tag": "quarantine and isolation",
+      "patterns":[
+        "What is the difference between quarantine and Isolation?",
+        "What is quarantine?",
+        "What is isolation?",
+        "What does it mean to quarantine and isolate?"
+      ],
+      "responses":[
+        "You quarantine when you might have been exposed to the virus and may or may not have been infected.You isolate when you have been infected with the virus, even if you do not have symptoms.",
+        "Isolation refers to the separation of a person or people known or reasonably believed to be infected or contagious from those who are not infected in order to prevent spread of the disease. Isolation may be voluntary, or compelled by governmental or public health authorities whereas Quarantine in general means the separation of a person or people reasonably believed to have been exposed to a communicable disease but not yet symptomatic from others who have not been so exposed in order to prevent the possible spread of the disease."
+      ]
+    },
+    {
+      "tag": "Social distancing",
+      "patterns": [
+        "What is Social distancing?"
+      ],
+      "responses":[
+        "Social distancing is a public health practice that aims to prevent sick people from coming in close contact with healthy people in order to reduce opportunities for disease transmission.It can include large-scale measures like canceling group events or closing public spaces, as well as individual decisions such as avoiding crowds."
+      ]
+    },
+    {
+      "tag": "kids",
+      "patterns":[
+        "What to do if your child has symptoms?",
+        "What to do if my kid has symptoms?"
+      ],
+      "responses":[
+        "Get a PCR test (test that is sent to a lab) to check if they have COVID-19 as soon as possible. Your child should stay at home and not have visitors, self-isolate until you get the test result, they can only leave home to have the test."
+      ]
+    },
+    {
+      "tag": "Books and Movies",
+      "patterns":[
+        "What are some books and movies that I can watch durinf this pandemic?",
+        "What books would you recommend me to read?",
+        "What movies do you suggest I watch?"
+      ],
+      "responses":[
+        "Books I would recommend Born a crime by Trevoh Noah and The Chocolate factory by Roald Dahl. As for movies I would suggest The Shawshank Redemption and Forest Gump"
+      ]
+    },
+    {
+      "tag": "Delta Variant",
+      "patterns":[
+        "What is the Delta variant?"
+      ],
+      "responses":[
+        "The Delta variant is a variant of concern classified by WHO on May 11, 2021 and is currently the dominant variant that is circulating globally. Delta spreads more easily than earlier strains of the virus and is responsible for more cases and deaths worldwide. All approved COVID-19 vaccines currently in use are safe and effective in preventing severe disease and death against the Delta variant."
+      ]
+    },
+    {
+      "tag": "variant",
+      "patterns":[
+        "What is the difference between a variant of concern and a variant of interest?"
+      ],
+      "responses":[
+        "A variant is considered a variant of interest if it has mutations that are suspected or known to cause significant changes, and is circulating widely (e.g., known to cause many clusters of infected people, or found in many countries). There are many variants of interest that WHO is continuing to monitor in case they become variants of concern. A variant of interest becomes a variant of concern if it is known to spread more easily, cause more severe disease, escape the body immune response, change clinical presentation, or decrease effectiveness of known tools such as public health measures, diagnostics, treatments and vaccines."
+      ]
+    },
+    {
+      "tag": "Mutations",
+      "patterns":[
+        "What is the difference between a mutation and a variant?"
+      ],
+      "responses":[
+        "Viruses are constantly evolving and changing. Every time a virus replicates makes: copies of itself, there is the potential for there to be changes in its structure. Each of these changes is a mutation. A virus with one or more mutations is called a variant of the original virus. Some mutations can lead to changes in important characteristics of the virus, including characteristics that affect its ability to spread and/or its ability to cause more severe illness and death."
+      ]
+    },
+    {
+      "tag": "End of Covid-19",
+      "patterns":[
+        "Will we ever be able to eradicate the virus?",
+        "When will covid-19 end?"
+      ],
+      "responses":[
+        "Now there is a vaccine, anything is possible. But according to the BMJ, a medical journal, there is a difference between possible and achievable. Even with a vaccine, new strains from different countries would mean that anything close to eradication might mean permanently restricted borders. It could also mean a vaccine strategy similar to the flu, where every year new vaccines are created to replicate the evolution of the virus. However, even if it is not completely eradicated, we could get life back on track with a combination of herd immunity from an effective vaccination rollout and treatments that reduce the number deaths from people with COVID-19. What that does mean, though, is that we need the whole world to be able to access vaccines and treatments."
+      ]
+    }
+  ]
+}
